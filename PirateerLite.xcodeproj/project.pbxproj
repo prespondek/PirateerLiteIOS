@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C610022722279121001F5B4C /* TableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C610022622279121001F5B4C /* TableHeader.xib */; };
+		C6132DA5220E7A730001DCA3 /* GraphExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132DA4220E7A730001DCA3 /* GraphExtensions.swift */; };
+		C6132DA8220F771F0001DCA3 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132DA7220F771F0001DCA3 /* Audio.swift */; };
+		C6132DAC221136910001DCA3 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132DAB221136910001DCA3 /* WalletView.swift */; };
+		C6132DAE22113EE30001DCA3 /* TownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132DAD22113EE30001DCA3 /* TownViewController.swift */; };
+		C6132DB1221291AF0001DCA3 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132DB0221291AF0001DCA3 /* UIExtensions.swift */; };
+		C61C67F02205C29400853278 /* TownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C67EF2205C29400853278 /* TownController.swift */; };
+		C61C67F622069EC000853278 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C67F522069EC000853278 /* User.swift */; };
+		C61C67F82207246700853278 /* CardinalSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C67F72207246700853278 /* CardinalSpline.swift */; };
+		C61C67FA2207D70E00853278 /* BoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C67F92207D70E00853278 /* BoatView.swift */; };
+		C61F9490223E443F0088ADA0 /* AlertQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F948F223E443F0088ADA0 /* AlertQueue.swift */; };
+		C61F9493223F9F510088ADA0 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F9492223F9F510088ADA0 /* StatsViewController.swift */; };
+		C622CE1322229A1800993D4D /* BoatInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE1222229A1800993D4D /* BoatInfoViewController.swift */; };
+		C622CE1522229AE000993D4D /* ShipyardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE1422229AE000993D4D /* ShipyardViewController.swift */; };
+		C622CE1722229B1300993D4D /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE1622229B1300993D4D /* MarketViewController.swift */; };
+		C622CE1B2222D95F00993D4D /* MarketCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE1A2222D95F00993D4D /* MarketCellView.swift */; };
+		C622CE1F2222E37500993D4D /* ShipyardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE1E2222E37500993D4D /* ShipyardCellView.swift */; };
+		C622CE212223957F00993D4D /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C622CE202223957F00993D4D /* MenuCell.xib */; };
+		C622CE2322239E6800993D4D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622CE2222239E6800993D4D /* MenuView.swift */; };
+		C64E5D9B22129790009FB061 /* Wallet.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E5D9A22129790009FB061 /* Wallet.xib */; };
+		C64E5D9F22169011009FB061 /* BoatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E5D9E22169011009FB061 /* BoatCell.xib */; };
+		C64E5DA122169259009FB061 /* BoatCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DA022169259009FB061 /* BoatCellView.swift */; };
+		C64E5DA32218DBF3009FB061 /* JobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DA22218DBF3009FB061 /* JobController.swift */; };
+		C64E5DA62218DFF7009FB061 /* TownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DA52218DFF7009FB061 /* TownView.swift */; };
+		C64E5DA822190F73009FB061 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DA722190F73009FB061 /* JobViewController.swift */; };
+		C64E5DAA22191284009FB061 /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DA922191284009FB061 /* JobView.swift */; };
+		C64E5DAC2219B861009FB061 /* JobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64E5DAB2219B861009FB061 /* JobCell.xib */; };
+		C64E5DAE221B99D9009FB061 /* CargoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DAD221B99D9009FB061 /* CargoView.swift */; };
+		C64E5DB0221BF02A009FB061 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E5DAF221BF02A009FB061 /* XibView.swift */; };
+		C686493E21FC004E000480AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686493D21FC004E000480AE /* AppDelegate.swift */; };
+		C686494021FC004E000480AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686493F21FC004E000480AE /* MapViewController.swift */; };
+		C686494321FC004E000480AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C686494121FC004E000480AE /* Main.storyboard */; };
+		C686494521FC0051000480AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C686494421FC0051000480AE /* Assets.xcassets */; };
+		C686494821FC0051000480AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C686494621FC0051000480AE /* LaunchScreen.storyboard */; };
+		C686495321FC0051000480AE /* PirateerOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495221FC0051000480AE /* PirateerOnlineTests.swift */; };
+		C686495E21FC0051000480AE /* PirateerOnlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */; };
+		C686497B21FDE9E5000480AE /* MapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C686497A21FDE9E5000480AE /* MapScene.sks */; };
+		C68649BD21FDF126000480AE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68649BC21FDF126000480AE /* MapView.swift */; };
+		C68D8D552201A11000F839CD /* PirateerAssets in Resources */ = {isa = PBXBuildFile; fileRef = C68D8D542201A11000F839CD /* PirateerAssets */; };
+		C68D8D6F22025D4300F839CD /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D6E22025D4300F839CD /* Graph.swift */; };
+		C68D8D752202718200F839CD /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D742202718200F839CD /* MapModel.swift */; };
+		C68D8D77220271C000F839CD /* TownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D76220271C000F839CD /* TownModel.swift */; };
+		C68D8D79220271D400F839CD /* BoatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D78220271D400F839CD /* BoatModel.swift */; };
+		C68D8D7B220275F500F839CD /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D7A220275F500F839CD /* PriorityQueue.swift */; };
+		C68D8D7D2202764500F839CD /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D7C2202764500F839CD /* Heap.swift */; };
+		C68D8D7F2202B7EA00F839CD /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D7E2202B7EA00F839CD /* AppViewController.swift */; };
+		C68D8D812202DA4700F839CD /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D802202DA4700F839CD /* Types.swift */; };
+		C68D8D832202F27000F839CD /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D822202F27000F839CD /* JobModel.swift */; };
+		C68D8D852202FD7100F839CD /* JsonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D842202FD7100F839CD /* JsonExtensions.swift */; };
+		C68D8D87220407E600F839CD /* SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D86220407E600F839CD /* SKExtensions.swift */; };
+		C6A6A488220D4A8F00E5FC67 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6A487220D4A8F00E5FC67 /* Debug.swift */; };
+		C6E11F882208038100093718 /* SplinePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F872208038100093718 /* SplinePath.swift */; };
+		C6E11F8B220920E300093718 /* BoatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F8A220920E300093718 /* BoatListViewController.swift */; };
+		C6E11F8E220947E200093718 /* BoatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F8D220947E200093718 /* BoatController.swift */; };
+		C6E11F902209574700093718 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F8F2209574700093718 /* Map.swift */; };
+		C6E11F93220BBDBA00093718 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F92220BBDBA00093718 /* MenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C686494F21FC0051000480AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C686493221FC004E000480AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C686493921FC004E000480AE;
+			remoteInfo = PirateerOnline;
+		};
+		C686495A21FC0051000480AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C686493221FC004E000480AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C686493921FC004E000480AE;
+			remoteInfo = PirateerOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C610022622279121001F5B4C /* TableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
+		C6132DA4220E7A730001DCA3 /* GraphExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphExtensions.swift; sourceTree = "<group>"; };
+		C6132DA7220F771F0001DCA3 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		C6132DAB221136910001DCA3 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		C6132DAD22113EE30001DCA3 /* TownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownViewController.swift; sourceTree = "<group>"; };
+		C6132DB0221291AF0001DCA3 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		C61C67EF2205C29400853278 /* TownController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownController.swift; sourceTree = "<group>"; };
+		C61C67F522069EC000853278 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C61C67F72207246700853278 /* CardinalSpline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalSpline.swift; sourceTree = "<group>"; };
+		C61C67F92207D70E00853278 /* BoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatView.swift; sourceTree = "<group>"; };
+		C61F948F223E443F0088ADA0 /* AlertQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertQueue.swift; sourceTree = "<group>"; };
+		C61F9492223F9F510088ADA0 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		C622CE1222229A1800993D4D /* BoatInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatInfoViewController.swift; sourceTree = "<group>"; };
+		C622CE1422229AE000993D4D /* ShipyardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipyardViewController.swift; sourceTree = "<group>"; };
+		C622CE1622229B1300993D4D /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		C622CE1A2222D95F00993D4D /* MarketCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCellView.swift; sourceTree = "<group>"; };
+		C622CE1E2222E37500993D4D /* ShipyardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipyardCellView.swift; sourceTree = "<group>"; };
+		C622CE202223957F00993D4D /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		C622CE2222239E6800993D4D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C64E5D9A22129790009FB061 /* Wallet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Wallet.xib; sourceTree = "<group>"; };
+		C64E5D9E22169011009FB061 /* BoatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoatCell.xib; sourceTree = "<group>"; };
+		C64E5DA022169259009FB061 /* BoatCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatCellView.swift; sourceTree = "<group>"; };
+		C64E5DA22218DBF3009FB061 /* JobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobController.swift; sourceTree = "<group>"; };
+		C64E5DA52218DFF7009FB061 /* TownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownView.swift; sourceTree = "<group>"; };
+		C64E5DA722190F73009FB061 /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		C64E5DA922191284009FB061 /* JobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		C64E5DAB2219B861009FB061 /* JobCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobCell.xib; sourceTree = "<group>"; };
+		C64E5DAD221B99D9009FB061 /* CargoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoView.swift; sourceTree = "<group>"; };
+		C64E5DAF221BF02A009FB061 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		C686493A21FC004E000480AE /* ClearForActionLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearForActionLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C686493D21FC004E000480AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C686493F21FC004E000480AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C686494221FC004E000480AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C686494421FC0051000480AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C686494721FC0051000480AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C686494921FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C686494E21FC0051000480AE /* PirateerLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateerLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C686495221FC0051000480AE /* PirateerOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerOnlineTests.swift; sourceTree = "<group>"; };
+		C686495421FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C686495921FC0051000480AE /* PirateerLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateerLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerOnlineUITests.swift; sourceTree = "<group>"; };
+		C686495F21FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C686497A21FDE9E5000480AE /* MapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapScene.sks; sourceTree = "<group>"; };
+		C68649BC21FDF126000480AE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C68D8D542201A11000F839CD /* PirateerAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PirateerAssets; path = ../PirateerAssets; sourceTree = "<group>"; };
+		C68D8D6E22025D4300F839CD /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		C68D8D742202718200F839CD /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		C68D8D76220271C000F839CD /* TownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownModel.swift; sourceTree = "<group>"; };
+		C68D8D78220271D400F839CD /* BoatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatModel.swift; sourceTree = "<group>"; };
+		C68D8D7A220275F500F839CD /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		C68D8D7C2202764500F839CD /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		C68D8D7E2202B7EA00F839CD /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		C68D8D802202DA4700F839CD /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		C68D8D822202F27000F839CD /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+		C68D8D842202FD7100F839CD /* JsonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtensions.swift; sourceTree = "<group>"; };
+		C68D8D86220407E600F839CD /* SKExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKExtensions.swift; sourceTree = "<group>"; };
+		C6A6A487220D4A8F00E5FC67 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		C6E11F872208038100093718 /* SplinePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplinePath.swift; sourceTree = "<group>"; };
+		C6E11F8A220920E300093718 /* BoatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatListViewController.swift; sourceTree = "<group>"; };
+		C6E11F8D220947E200093718 /* BoatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatController.swift; sourceTree = "<group>"; };
+		C6E11F8F2209574700093718 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		C6E11F92220BBDBA00093718 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C686493721FC004E000480AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686494B21FC0051000480AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686495621FC0051000480AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C64E5DA42218DC10009FB061 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C686493F21FC004E000480AE /* MapViewController.swift */,
+				C6132DAD22113EE30001DCA3 /* TownViewController.swift */,
+				C6E11F8A220920E300093718 /* BoatListViewController.swift */,
+				C64E5DA722190F73009FB061 /* JobViewController.swift */,
+				C6E11F92220BBDBA00093718 /* MenuViewController.swift */,
+				C622CE1222229A1800993D4D /* BoatInfoViewController.swift */,
+				C622CE1422229AE000993D4D /* ShipyardViewController.swift */,
+				C68D8D7E2202B7EA00F839CD /* AppViewController.swift */,
+				C622CE1622229B1300993D4D /* MarketViewController.swift */,
+				C61F9492223F9F510088ADA0 /* StatsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C686493121FC004E000480AE = {
+			isa = PBXGroup;
+			children = (
+				C68D8D542201A11000F839CD /* PirateerAssets */,
+				C686493C21FC004E000480AE /* PirateerOnline */,
+				C686495121FC0051000480AE /* PirateerOnlineTests */,
+				C686495C21FC0051000480AE /* PirateerOnlineUITests */,
+				C686493B21FC004E000480AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C686493B21FC004E000480AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C686493A21FC004E000480AE /* ClearForActionLite.app */,
+				C686494E21FC0051000480AE /* PirateerLiteTests.xctest */,
+				C686495921FC0051000480AE /* PirateerLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C686493C21FC004E000480AE /* PirateerOnline */ = {
+			isa = PBXGroup;
+			children = (
+				C64E5DA42218DC10009FB061 /* ViewControllers */,
+				C6E11F8C220939AA00093718 /* Singletons */,
+				C68D8D6C2202585100F839CD /* Library */,
+				C686497521FD97C8000480AE /* Controllers */,
+				C686497421FD97BD000480AE /* Views */,
+				C686497321FD97AB000480AE /* Models */,
+				C686493D21FC004E000480AE /* AppDelegate.swift */,
+				C686494121FC004E000480AE /* Main.storyboard */,
+				C64E5D9A22129790009FB061 /* Wallet.xib */,
+				C64E5D9E22169011009FB061 /* BoatCell.xib */,
+				C610022622279121001F5B4C /* TableHeader.xib */,
+				C64E5DAB2219B861009FB061 /* JobCell.xib */,
+				C622CE202223957F00993D4D /* MenuCell.xib */,
+				C686494421FC0051000480AE /* Assets.xcassets */,
+				C686494621FC0051000480AE /* LaunchScreen.storyboard */,
+				C686494921FC0051000480AE /* Info.plist */,
+			);
+			path = PirateerOnline;
+			sourceTree = "<group>";
+		};
+		C686495121FC0051000480AE /* PirateerOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				C686495221FC0051000480AE /* PirateerOnlineTests.swift */,
+				C686495421FC0051000480AE /* Info.plist */,
+			);
+			path = PirateerOnlineTests;
+			sourceTree = "<group>";
+		};
+		C686495C21FC0051000480AE /* PirateerOnlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */,
+				C686495F21FC0051000480AE /* Info.plist */,
+			);
+			path = PirateerOnlineUITests;
+			sourceTree = "<group>";
+		};
+		C686497321FD97AB000480AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C68D8D742202718200F839CD /* MapModel.swift */,
+				C68D8D76220271C000F839CD /* TownModel.swift */,
+				C68D8D78220271D400F839CD /* BoatModel.swift */,
+				C68D8D822202F27000F839CD /* JobModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C686497421FD97BD000480AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C686497A21FDE9E5000480AE /* MapScene.sks */,
+				C6132DAB221136910001DCA3 /* WalletView.swift */,
+				C68649BC21FDF126000480AE /* MapView.swift */,
+				C61C67F92207D70E00853278 /* BoatView.swift */,
+				C64E5DA022169259009FB061 /* BoatCellView.swift */,
+				C622CE1A2222D95F00993D4D /* MarketCellView.swift */,
+				C622CE1E2222E37500993D4D /* ShipyardCellView.swift */,
+				C64E5DA52218DFF7009FB061 /* TownView.swift */,
+				C64E5DA922191284009FB061 /* JobView.swift */,
+				C64E5DAD221B99D9009FB061 /* CargoView.swift */,
+				C622CE2222239E6800993D4D /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C686497521FD97C8000480AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6A6A487220D4A8F00E5FC67 /* Debug.swift */,
+				C61C67EF2205C29400853278 /* TownController.swift */,
+				C6E11F8D220947E200093718 /* BoatController.swift */,
+				C64E5DA22218DBF3009FB061 /* JobController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C68D8D6C2202585100F839CD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C68D8D6E22025D4300F839CD /* Graph.swift */,
+				C6132DA4220E7A730001DCA3 /* GraphExtensions.swift */,
+				C68D8D7A220275F500F839CD /* PriorityQueue.swift */,
+				C68D8D7C2202764500F839CD /* Heap.swift */,
+				C68D8D802202DA4700F839CD /* Types.swift */,
+				C68D8D842202FD7100F839CD /* JsonExtensions.swift */,
+				C6132DB0221291AF0001DCA3 /* UIExtensions.swift */,
+				C68D8D86220407E600F839CD /* SKExtensions.swift */,
+				C61C67F72207246700853278 /* CardinalSpline.swift */,
+				C6E11F872208038100093718 /* SplinePath.swift */,
+				C64E5DAF221BF02A009FB061 /* XibView.swift */,
+				C61F948F223E443F0088ADA0 /* AlertQueue.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C6E11F8C220939AA00093718 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				C61C67F522069EC000853278 /* User.swift */,
+				C6132DA7220F771F0001DCA3 /* Audio.swift */,
+				C6E11F8F2209574700093718 /* Map.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C686493921FC004E000480AE /* ClearForActionLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C686496221FC0051000480AE /* Build configuration list for PBXNativeTarget "ClearForActionLite" */;
+			buildPhases = (
+				C686493621FC004E000480AE /* Sources */,
+				C686493721FC004E000480AE /* Frameworks */,
+				C686493821FC004E000480AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearForActionLite;
+			productName = PirateerOnline;
+			productReference = C686493A21FC004E000480AE /* ClearForActionLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C686494D21FC0051000480AE /* PirateerLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C686496521FC0051000480AE /* Build configuration list for PBXNativeTarget "PirateerLiteTests" */;
+			buildPhases = (
+				C686494A21FC0051000480AE /* Sources */,
+				C686494B21FC0051000480AE /* Frameworks */,
+				C686494C21FC0051000480AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C686495021FC0051000480AE /* PBXTargetDependency */,
+			);
+			name = PirateerLiteTests;
+			productName = PirateerOnlineTests;
+			productReference = C686494E21FC0051000480AE /* PirateerLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C686495821FC0051000480AE /* PirateerLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C686496821FC0051000480AE /* Build configuration list for PBXNativeTarget "PirateerLiteUITests" */;
+			buildPhases = (
+				C686495521FC0051000480AE /* Sources */,
+				C686495621FC0051000480AE /* Frameworks */,
+				C686495721FC0051000480AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C686495B21FC0051000480AE /* PBXTargetDependency */,
+			);
+			name = PirateerLiteUITests;
+			productName = PirateerOnlineUITests;
+			productReference = C686495921FC0051000480AE /* PirateerLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C686493221FC004E000480AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Peter Respondek";
+				TargetAttributes = {
+					C686493921FC004E000480AE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C686494D21FC0051000480AE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C686493921FC004E000480AE;
+					};
+					C686495821FC0051000480AE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C686493921FC004E000480AE;
+					};
+				};
+			};
+			buildConfigurationList = C686493521FC004E000480AE /* Build configuration list for PBXProject "PirateerLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C686493121FC004E000480AE;
+			productRefGroup = C686493B21FC004E000480AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C686493921FC004E000480AE /* ClearForActionLite */,
+				C686494D21FC0051000480AE /* PirateerLiteTests */,
+				C686495821FC0051000480AE /* PirateerLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C686493821FC004E000480AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64E5D9B22129790009FB061 /* Wallet.xib in Resources */,
+				C686494821FC0051000480AE /* LaunchScreen.storyboard in Resources */,
+				C622CE212223957F00993D4D /* MenuCell.xib in Resources */,
+				C610022722279121001F5B4C /* TableHeader.xib in Resources */,
+				C686494521FC0051000480AE /* Assets.xcassets in Resources */,
+				C686494321FC004E000480AE /* Main.storyboard in Resources */,
+				C68D8D552201A11000F839CD /* PirateerAssets in Resources */,
+				C64E5D9F22169011009FB061 /* BoatCell.xib in Resources */,
+				C686497B21FDE9E5000480AE /* MapScene.sks in Resources */,
+				C64E5DAC2219B861009FB061 /* JobCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686494C21FC0051000480AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686495721FC0051000480AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C686493621FC004E000480AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C622CE1322229A1800993D4D /* BoatInfoViewController.swift in Sources */,
+				C68D8D7D2202764500F839CD /* Heap.swift in Sources */,
+				C68D8D7F2202B7EA00F839CD /* AppViewController.swift in Sources */,
+				C6E11F8B220920E300093718 /* BoatListViewController.swift in Sources */,
+				C622CE1722229B1300993D4D /* MarketViewController.swift in Sources */,
+				C61C67FA2207D70E00853278 /* BoatView.swift in Sources */,
+				C622CE1B2222D95F00993D4D /* MarketCellView.swift in Sources */,
+				C64E5DA122169259009FB061 /* BoatCellView.swift in Sources */,
+				C68D8D6F22025D4300F839CD /* Graph.swift in Sources */,
+				C622CE1F2222E37500993D4D /* ShipyardCellView.swift in Sources */,
+				C68D8D87220407E600F839CD /* SKExtensions.swift in Sources */,
+				C68D8D752202718200F839CD /* MapModel.swift in Sources */,
+				C64E5DAE221B99D9009FB061 /* CargoView.swift in Sources */,
+				C6132DAC221136910001DCA3 /* WalletView.swift in Sources */,
+				C622CE2322239E6800993D4D /* MenuView.swift in Sources */,
+				C68D8D79220271D400F839CD /* BoatModel.swift in Sources */,
+				C61C67F02205C29400853278 /* TownController.swift in Sources */,
+				C68D8D832202F27000F839CD /* JobModel.swift in Sources */,
+				C64E5DA62218DFF7009FB061 /* TownView.swift in Sources */,
+				C6E11F93220BBDBA00093718 /* MenuViewController.swift in Sources */,
+				C61C67F622069EC000853278 /* User.swift in Sources */,
+				C6132DAE22113EE30001DCA3 /* TownViewController.swift in Sources */,
+				C68649BD21FDF126000480AE /* MapView.swift in Sources */,
+				C64E5DA822190F73009FB061 /* JobViewController.swift in Sources */,
+				C622CE1522229AE000993D4D /* ShipyardViewController.swift in Sources */,
+				C64E5DAA22191284009FB061 /* JobView.swift in Sources */,
+				C6132DA8220F771F0001DCA3 /* Audio.swift in Sources */,
+				C6A6A488220D4A8F00E5FC67 /* Debug.swift in Sources */,
+				C61C67F82207246700853278 /* CardinalSpline.swift in Sources */,
+				C686494021FC004E000480AE /* MapViewController.swift in Sources */,
+				C6132DB1221291AF0001DCA3 /* UIExtensions.swift in Sources */,
+				C68D8D7B220275F500F839CD /* PriorityQueue.swift in Sources */,
+				C686493E21FC004E000480AE /* AppDelegate.swift in Sources */,
+				C6132DA5220E7A730001DCA3 /* GraphExtensions.swift in Sources */,
+				C61F9493223F9F510088ADA0 /* StatsViewController.swift in Sources */,
+				C68D8D812202DA4700F839CD /* Types.swift in Sources */,
+				C64E5DA32218DBF3009FB061 /* JobController.swift in Sources */,
+				C68D8D852202FD7100F839CD /* JsonExtensions.swift in Sources */,
+				C6E11F902209574700093718 /* Map.swift in Sources */,
+				C6E11F882208038100093718 /* SplinePath.swift in Sources */,
+				C61F9490223E443F0088ADA0 /* AlertQueue.swift in Sources */,
+				C68D8D77220271C000F839CD /* TownModel.swift in Sources */,
+				C64E5DB0221BF02A009FB061 /* XibView.swift in Sources */,
+				C6E11F8E220947E200093718 /* BoatController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686494A21FC0051000480AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C686495321FC0051000480AE /* PirateerOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686495521FC0051000480AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C686495E21FC0051000480AE /* PirateerOnlineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C686495021FC0051000480AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C686493921FC004E000480AE /* ClearForActionLite */;
+			targetProxy = C686494F21FC0051000480AE /* PBXContainerItemProxy */;
+		};
+		C686495B21FC0051000480AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C686493921FC004E000480AE /* ClearForActionLite */;
+			targetProxy = C686495A21FC0051000480AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C686494121FC004E000480AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C686494221FC004E000480AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C686494621FC0051000480AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C686494721FC0051000480AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C686496021FC0051000480AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C686496121FC0051000480AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C686496321FC0051000480AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C686496421FC0051000480AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C686496621FC0051000480AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateerLite.app/PirateerLite";
+			};
+			name = Debug;
+		};
+		C686496721FC0051000480AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PirateerLite.app/PirateerLite";
+			};
+			name = Release;
+		};
+		C686496921FC0051000480AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PirateerOnline;
+			};
+			name = Debug;
+		};
+		C686496A21FC0051000480AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M956VZV89K;
+				INFOPLIST_FILE = PirateerOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PirateerOnline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C686493521FC004E000480AE /* Build configuration list for PBXProject "PirateerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C686496021FC0051000480AE /* Debug */,
+				C686496121FC0051000480AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C686496221FC0051000480AE /* Build configuration list for PBXNativeTarget "ClearForActionLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C686496321FC0051000480AE /* Debug */,
+				C686496421FC0051000480AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C686496521FC0051000480AE /* Build configuration list for PBXNativeTarget "PirateerLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C686496621FC0051000480AE /* Debug */,
+				C686496721FC0051000480AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C686496821FC0051000480AE /* Build configuration list for PBXNativeTarget "PirateerLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C686496921FC0051000480AE /* Debug */,
+				C686496A21FC0051000480AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C686493221FC004E000480AE /* Project object */;
+}

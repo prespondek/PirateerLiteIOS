@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="59"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gir-aC-aga">
+                    <rect key="frame" x="20" y="15" width="221" height="29"/>
+                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agh-GF-Xri">
+                    <rect key="frame" x="241" y="15" width="181" height="17"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gir-aC-aga" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="1DJ-wa-RCj"/>
+                <constraint firstItem="gir-aC-aga" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="DIc-mA-r1b"/>
+                <constraint firstItem="gir-aC-aga" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Fbx-xN-Ks7"/>
+                <constraint firstItem="gir-aC-aga" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="L8A-Sw-qdt"/>
+                <constraint firstItem="agh-GF-Xri" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="WTX-0z-Yid"/>
+                <constraint firstItem="agh-GF-Xri" firstAttribute="top" secondItem="gir-aC-aga" secondAttribute="top" id="mgE-X2-sO2"/>
+                <constraint firstItem="agh-GF-Xri" firstAttribute="leading" secondItem="gir-aC-aga" secondAttribute="trailing" id="nhA-n6-8Wg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="107.2" y="-184.85757121439281"/>
+        </view>
+    </objects>
+</document>

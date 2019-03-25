@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,16 +14,50 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="bGX-QE-Vjl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cfa" translatesAutoresizingMaskIntoConstraints="NO" id="qKM-IY-Ym5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COPYRIGHT PETER RESPONDEK 2019. WRITTEN IN XCODE WITH SWIFT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-PC-cQj">
+                                <rect key="frame" x="54" y="656" width="267.5" height="11"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="8"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="bGX-QE-Vjl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="56s-NI-ZPr"/>
+                            <constraint firstItem="bGX-QE-Vjl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BmS-OX-YUp"/>
+                            <constraint firstAttribute="trailing" secondItem="bGX-QE-Vjl" secondAttribute="trailing" id="FvR-ik-o0v"/>
+                            <constraint firstItem="qKM-IY-Ym5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IJc-IU-sPu"/>
+                            <constraint firstItem="qKM-IY-Ym5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ji8-sI-ob4"/>
+                            <constraint firstAttribute="bottom" secondItem="bGX-QE-Vjl" secondAttribute="bottom" id="MDE-2R-2dq"/>
+                            <constraint firstAttribute="bottom" secondItem="qKM-IY-Ym5" secondAttribute="bottom" id="RM6-da-AL6"/>
+                            <constraint firstAttribute="trailing" secondItem="qKM-IY-Ym5" secondAttribute="trailing" id="TjF-70-0Lg"/>
+                            <constraint firstItem="qKM-IY-Ym5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jln-h0-Nkq"/>
+                            <constraint firstItem="c8S-PC-cQj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ndM-Ud-BcR"/>
+                            <constraint firstItem="bGX-QE-Vjl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rCh-3x-HOE"/>
+                            <constraint firstItem="Yjr-yh-TeY" firstAttribute="bottom" secondItem="c8S-PC-cQj" secondAttribute="bottom" id="rSj-dM-upM"/>
+                            <constraint firstItem="bGX-QE-Vjl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uh6-vU-4xF"/>
+                            <constraint firstItem="qKM-IY-Ym5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zAB-o3-gBo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yjr-yh-TeY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchScreen" width="245.760498046875" height="245.760498046875"/>
+        <image name="cfa" width="720" height="255"/>
+    </resources>
 </document>

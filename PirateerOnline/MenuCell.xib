@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuView" customModule="PirateerOnline" customModuleProvider="target">
+            <connections>
+                <outlet property="menuImage" destination="Lf2-tK-3sN" id="Nzi-Q2-bvn"/>
+                <outlet property="nameLabel" destination="VpJ-lT-UkZ" id="gVf-Ik-rGD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N5i-u2-PIj">
+            <rect key="frame" x="0.0" y="0.0" width="136" height="142"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gVh-mA-B4v">
+                    <rect key="frame" x="0.0" y="0.0" width="136" height="142"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="JFs-X0-4eY">
+                            <rect key="frame" x="0.0" y="0.0" width="136" height="41"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpJ-lT-UkZ">
+                                    <rect key="frame" x="51" y="11" width="34" height="19.5"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="VpJ-lT-UkZ" firstAttribute="centerY" secondItem="JFs-X0-4eY" secondAttribute="centerY" id="9OI-sN-pVQ"/>
+                                <constraint firstItem="VpJ-lT-UkZ" firstAttribute="centerX" secondItem="JFs-X0-4eY" secondAttribute="centerX" id="jgL-sa-xn7"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ao2-89-waB">
+                            <rect key="frame" x="0.0" y="45" width="136" height="82.5"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lf2-tK-3sN">
+                                    <rect key="frame" x="27" y="0.0" width="82" height="82.5"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="centerY" secondItem="ao2-89-waB" secondAttribute="centerY" id="5gj-NC-bmB"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="width" secondItem="ao2-89-waB" secondAttribute="width" priority="999" id="HE3-y4-vJz"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="centerX" secondItem="ao2-89-waB" secondAttribute="centerX" id="PR5-Kw-hVq"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="height" relation="lessThanOrEqual" secondItem="ao2-89-waB" secondAttribute="height" id="afX-op-UBd"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="height" secondItem="ao2-89-waB" secondAttribute="height" priority="999" id="hn9-mj-RLf"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="width" secondItem="ao2-89-waB" secondAttribute="height" multiplier="1:1" id="qwV-gJ-SZe"/>
+                                <constraint firstItem="Lf2-tK-3sN" firstAttribute="width" relation="lessThanOrEqual" secondItem="ao2-89-waB" secondAttribute="width" id="ysl-KA-11H"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Gn-hO-RcM">
+                            <rect key="frame" x="0.0" y="131.5" width="136" height="10.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="JFs-X0-4eY" secondAttribute="trailing" id="0PW-H4-nOP"/>
+                        <constraint firstItem="JFs-X0-4eY" firstAttribute="leading" secondItem="gVh-mA-B4v" secondAttribute="leading" id="JsK-11-fmx"/>
+                        <constraint firstItem="JFs-X0-4eY" firstAttribute="top" secondItem="gVh-mA-B4v" secondAttribute="top" id="dPI-wu-XmS"/>
+                        <constraint firstItem="ao2-89-waB" firstAttribute="height" secondItem="JFs-X0-4eY" secondAttribute="height" multiplier="2" id="nKF-f4-38z"/>
+                        <constraint firstItem="ao2-89-waB" firstAttribute="height" secondItem="1Gn-hO-RcM" secondAttribute="height" multiplier="8" id="quk-yf-Wre"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.89438284589999995" green="0.89438284589999995" blue="0.89438284589999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gVh-mA-B4v" secondAttribute="trailing" id="4OY-Qs-hTa"/>
+                <constraint firstAttribute="bottom" secondItem="gVh-mA-B4v" secondAttribute="bottom" id="5YO-Fi-Umw"/>
+                <constraint firstItem="gVh-mA-B4v" firstAttribute="top" secondItem="N5i-u2-PIj" secondAttribute="top" id="Z4O-6y-haY"/>
+                <constraint firstItem="gVh-mA-B4v" firstAttribute="leading" secondItem="N5i-u2-PIj" secondAttribute="leading" id="ptI-90-xZm"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-110.40000000000001" y="126.83658170914543"/>
+        </view>
+    </objects>
+</document>
