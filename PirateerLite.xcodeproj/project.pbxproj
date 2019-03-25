@@ -193,9 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				C68D8D542201A11000F839CD /* PirateerAssets */,
-				C686493C21FC004E000480AE /* PirateerOnline */,
-				C686495121FC0051000480AE /* PirateerOnlineTests */,
-				C686495C21FC0051000480AE /* PirateerOnlineUITests */,
+				C686493C21FC004E000480AE /* PirateerLite */,
+				C686495121FC0051000480AE /* PirateerLiteTests */,
+				C686495C21FC0051000480AE /* PirateerLiteUITests */,
 				C686493B21FC004E000480AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C686493C21FC004E000480AE /* PirateerOnline */ = {
+		C686493C21FC004E000480AE /* PirateerLite */ = {
 			isa = PBXGroup;
 			children = (
 				C64E5DA42218DC10009FB061 /* ViewControllers */,
@@ -230,25 +230,25 @@
 				C686494621FC0051000480AE /* LaunchScreen.storyboard */,
 				C686494921FC0051000480AE /* Info.plist */,
 			);
-			path = PirateerOnline;
+			path = PirateerLite;
 			sourceTree = "<group>";
 		};
-		C686495121FC0051000480AE /* PirateerOnlineTests */ = {
+		C686495121FC0051000480AE /* PirateerLiteTests */ = {
 			isa = PBXGroup;
 			children = (
 				C686495221FC0051000480AE /* PirateerOnlineTests.swift */,
 				C686495421FC0051000480AE /* Info.plist */,
 			);
-			path = PirateerOnlineTests;
+			path = PirateerLiteTests;
 			sourceTree = "<group>";
 		};
-		C686495C21FC0051000480AE /* PirateerOnlineUITests */ = {
+		C686495C21FC0051000480AE /* PirateerLiteUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */,
 				C686495F21FC0051000480AE /* Info.plist */,
 			);
-			path = PirateerOnlineUITests;
+			path = PirateerLiteUITests;
 			sourceTree = "<group>";
 		};
 		C686497321FD97AB000480AE /* Models */ = {
