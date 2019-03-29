@@ -44,15 +44,21 @@ class MapScene: SKScene {
         _jobNode.removeAllChildren()
     }
     
-    func setup ( json: Dictionary<String,AnyObject> ) {
-        setPadding      ( data: json["Padding"] as! Array<Int> )
-        setDimensions   ( data: json["Dimensions"] as! Array<Int> )
-        makeBackground  ( data: json["TileIndex"] as! Array<String>,
-                         files: json["TileFile"] as! Array<String> )
-        makeAnimations  ( data: json )
-        makeFlags       ( data: json )
+    /// Set map view using data. Typically from a json file.
+    /// - Parameters:
+    ///   - data: A dictionary with String, Value pairs
+    func setup ( data: Dictionary<String,AnyObject> ) {
+        setPadding      ( data: data["Padding"] as! Array<Int> )
+        setDimensions   ( data: data["Dimensions"] as! Array<Int> )
+        makeBackground  ( data: data["TileIndex"] as! Array<String>,
+                         files: data["TileFile"] as! Array<String> )
+        makeAnimations  ( data: data )
+        makeFlags       ( data: data )
     }
     
+    /// Set offset of root node
+    /// - Parameters:
+    ///   - position: value to offset node
     func setOffset(position: CGPoint) {
         _root.position = position
     }

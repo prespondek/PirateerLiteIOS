@@ -41,8 +41,8 @@
 		C686494321FC004E000480AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C686494121FC004E000480AE /* Main.storyboard */; };
 		C686494521FC0051000480AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C686494421FC0051000480AE /* Assets.xcassets */; };
 		C686494821FC0051000480AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C686494621FC0051000480AE /* LaunchScreen.storyboard */; };
-		C686495321FC0051000480AE /* PirateerOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495221FC0051000480AE /* PirateerOnlineTests.swift */; };
-		C686495E21FC0051000480AE /* PirateerOnlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */; };
+		C686495321FC0051000480AE /* PirateerLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495221FC0051000480AE /* PirateerLiteTests.swift */; };
+		C686495E21FC0051000480AE /* PirateerLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495D21FC0051000480AE /* PirateerLiteUITests.swift */; };
 		C686497B21FDE9E5000480AE /* MapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C686497A21FDE9E5000480AE /* MapScene.sks */; };
 		C68649BD21FDF126000480AE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68649BC21FDF126000480AE /* MapView.swift */; };
 		C68D8D552201A11000F839CD /* PirateerAssets in Resources */ = {isa = PBXBuildFile; fileRef = C68D8D542201A11000F839CD /* PirateerAssets */; };
@@ -120,10 +120,10 @@
 		C686494721FC0051000480AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C686494921FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C686494E21FC0051000480AE /* PirateerLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateerLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C686495221FC0051000480AE /* PirateerOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerOnlineTests.swift; sourceTree = "<group>"; };
+		C686495221FC0051000480AE /* PirateerLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerLiteTests.swift; sourceTree = "<group>"; };
 		C686495421FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C686495921FC0051000480AE /* PirateerLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateerLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerOnlineUITests.swift; sourceTree = "<group>"; };
+		C686495D21FC0051000480AE /* PirateerLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateerLiteUITests.swift; sourceTree = "<group>"; };
 		C686495F21FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C686497A21FDE9E5000480AE /* MapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapScene.sks; sourceTree = "<group>"; };
 		C68649BC21FDF126000480AE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -236,7 +236,7 @@
 		C686495121FC0051000480AE /* PirateerLiteTests */ = {
 			isa = PBXGroup;
 			children = (
-				C686495221FC0051000480AE /* PirateerOnlineTests.swift */,
+				C686495221FC0051000480AE /* PirateerLiteTests.swift */,
 				C686495421FC0051000480AE /* Info.plist */,
 			);
 			path = PirateerLiteTests;
@@ -245,7 +245,7 @@
 		C686495C21FC0051000480AE /* PirateerLiteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C686495D21FC0051000480AE /* PirateerOnlineUITests.swift */,
+				C686495D21FC0051000480AE /* PirateerLiteUITests.swift */,
 				C686495F21FC0051000480AE /* Info.plist */,
 			);
 			path = PirateerLiteUITests;
@@ -509,7 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C686495321FC0051000480AE /* PirateerOnlineTests.swift in Sources */,
+				C686495321FC0051000480AE /* PirateerLiteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,7 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C686495E21FC0051000480AE /* PirateerOnlineUITests.swift in Sources */,
+				C686495E21FC0051000480AE /* PirateerLiteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,12 +680,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnline/Info.plist;
+				INFOPLIST_FILE = PirateerLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnline;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -698,12 +698,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnline/Info.plist;
+				INFOPLIST_FILE = PirateerLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnline;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -717,13 +717,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnlineTests/Info.plist;
+				INFOPLIST_FILE = PirateerLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -738,13 +738,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnlineTests/Info.plist;
+				INFOPLIST_FILE = PirateerLiteTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLiteTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -758,17 +758,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnlineUITests/Info.plist;
+				INFOPLIST_FILE = PirateerLiteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLiteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PirateerOnline;
+				TEST_TARGET_NAME = PirateerLite;
 			};
 			name = Debug;
 		};
@@ -778,17 +778,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M956VZV89K;
-				INFOPLIST_FILE = PirateerOnlineUITests/Info.plist;
+				INFOPLIST_FILE = PirateerLiteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerOnlineUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Lanyard.PirateerLiteUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PirateerOnline;
+				TEST_TARGET_NAME = PirateerLite;
 			};
 			name = Release;
 		};

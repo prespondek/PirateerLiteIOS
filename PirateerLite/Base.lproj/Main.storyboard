@@ -437,7 +437,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ib-mT-F6S" customClass="XibView" customModule="ClearForActionLite" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="348"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="358"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="JobCell"/>
@@ -458,13 +458,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrf-8G-bCR">
-                                                    <rect key="frame" x="8" y="91" width="359" height="32.5"/>
+                                                    <rect key="frame" x="8" y="96" width="359" height="32.5"/>
                                                     <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8J-kc-88V">
-                                                    <rect key="frame" x="337.5" y="91" width="29.5" height="16.5"/>
+                                                    <rect key="frame" x="337.5" y="96" width="29.5" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -2399,6 +2399,6 @@
         <image name="town_c2_unselected" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cm1-WU-KAe"/>
+        <segue reference="OJX-ik-Iza"/>
     </inferredMetricsTieBreakers>
 </document>
