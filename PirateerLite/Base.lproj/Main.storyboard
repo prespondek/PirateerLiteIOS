@@ -698,7 +698,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8y-ir-mre">
                                                             <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="battery_ship_01" translatesAutoresizingMaskIntoConstraints="NO" id="di9-PZ-ZMq">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sloop_01" translatesAutoresizingMaskIntoConstraints="NO" id="di9-PZ-ZMq">
                                                                     <rect key="frame" x="0.0" y="0.0" width="43.5" height="43.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" secondItem="di9-PZ-ZMq" secondAttribute="height" multiplier="1:1" id="gaS-1r-m9j"/>
@@ -2374,7 +2374,6 @@
     </scenes>
     <resources>
         <image name="abacus_small" width="46.319999694824219" height="46.080001831054688"/>
-        <image name="battery_ship_01" width="64" height="64"/>
         <image name="boat_icon" width="37.5" height="37.5"/>
         <image name="cancel_plot_icon" width="26.879999160766602" height="26.879999160766602"/>
         <image name="chest_small" width="46.080001831054688" height="46.319999694824219"/>
@@ -2399,6 +2398,6 @@
         <image name="town_c2_unselected" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OJX-ik-Iza"/>
+        <segue reference="cm1-WU-KAe"/>
     </inferredMetricsTieBreakers>
 </document>
