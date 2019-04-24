@@ -1,5 +1,5 @@
 # PirateerLiteIOS
-Clear For Action Lite. Non trivial sample IOS game written in swift
+Clear For Action Lite. Non trivial sample IOS game written in swift using UIKit and SpriteKit
 
 <img src=https://i.imgur.com/zKiYhXe.png width=200 align=left>
 <img src=https://i.imgur.com/fojw7XV.png width=200 align=left>
