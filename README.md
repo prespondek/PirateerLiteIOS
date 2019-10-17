@@ -7,7 +7,7 @@ Clear For Action Lite. Non trivial sample IOS game written in Swift using UIKit 
 <img src=https://i.imgur.com/vlWssIK.png width=200>
 
 
-    $ git clone https://github.com/Rahnem/PirateerLiteIOS
+    $ git clone https://github.com/prespondek/PirateerLiteIOS
 
 Build with XCode 10+
 
