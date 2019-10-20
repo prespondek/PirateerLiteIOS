@@ -12,7 +12,7 @@ import UIKit
 class StatsViewController: UIViewController, UserObserver
 {
     @IBOutlet weak var leveLabel:               UILabel!
-    @IBOutlet weak var levelImage: UIImageView!
+    @IBOutlet weak var levelImage:              UIImageView!
     @IBOutlet weak var nextXpLabel:             UILabel!
     @IBOutlet weak var totalXpLabel:            UILabel!
     @IBOutlet weak var goldLabel:               UILabel!

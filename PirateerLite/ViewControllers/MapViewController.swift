@@ -313,10 +313,10 @@ class MapViewController: UIViewController, UserObserver {
     }
     
     @objc func jobDelivered(_ notification: Notification) {
-        let town = notification.userInfo!["Town"] as! TownModel
-        let gold = notification.userInfo!["Gold"] as! Int
-        let silver = notification.userInfo!["Silver"] as! Int
-        let quiet = notification.userInfo!["Quiet"] as! Bool
+        let town =      notification.userInfo!["Town"] as! TownModel
+        let gold =      notification.userInfo!["Gold"] as! Int
+        let silver =    notification.userInfo!["Silver"] as! Int
+        let quiet =     notification.userInfo!["Quiet"] as! Bool
         if quiet == false {
             scene.showMoney(town: town, gold: gold, silver: silver)
         }
@@ -388,7 +388,7 @@ class MapViewController: UIViewController, UserObserver {
             let scene_pos = Map.sharedInstance.townPosition( town: town! )
             let screen_pos = screenPosition( position: scene_pos )
             scrollView.contentOffset = screen_pos
-            townSelected( town: townControllerForModel(model: town!) )
+            townSelected( town: townControllerForModel( model: town! ) )
         } else {
             startTracking( boat: self._selectedBoat! )
             plotCourseForBoat ( boat: self._selectedBoat! )

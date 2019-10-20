@@ -41,8 +41,8 @@ class TownController {
     init(town: TownModel, button: UIButton, view: TownView ) {
         self.model =    town
         self.button =   button
-        self.view =   view
-        self._state =    .disabled
+        self.view =     view
+        self._state =   .disabled
         button.addTarget(self, action: #selector(TownController.buttonPressed), for: UIControl.Event.touchUpInside)
         updateView()
     }

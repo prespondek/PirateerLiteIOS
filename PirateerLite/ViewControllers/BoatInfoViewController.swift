@@ -11,17 +11,17 @@ import UIKit
 
 class BoatInfoViewController: UIViewController
 {
-    @IBOutlet weak var buildButton: FilledButton!
-    @IBOutlet weak var boatInfo: UITextView!
-    @IBOutlet weak var rangeLabel: UILabel!
-    @IBOutlet weak var cargoSizeLabel: UILabel!
-    @IBOutlet weak var boatNameLabel: UILabel!
-    @IBOutlet weak var speedLabel: UILabel!
-    @IBOutlet weak var hullLabel: UILabel!
-    @IBOutlet weak var cannonsLabel: UILabel!
-    @IBOutlet weak var partsLabel: UILabel!
-    @IBOutlet weak var sailsLabel: UILabel!
-    @IBOutlet weak var boatImage: UIImageView!
+    @IBOutlet weak var buildButton:     FilledButton!
+    @IBOutlet weak var boatInfo:        UITextView!
+    @IBOutlet weak var rangeLabel:      UILabel!
+    @IBOutlet weak var cargoSizeLabel:  UILabel!
+    @IBOutlet weak var boatNameLabel:   UILabel!
+    @IBOutlet weak var speedLabel:      UILabel!
+    @IBOutlet weak var hullLabel:       UILabel!
+    @IBOutlet weak var cannonsLabel:    UILabel!
+    @IBOutlet weak var partsLabel:      UILabel!
+    @IBOutlet weak var sailsLabel:      UILabel!
+    @IBOutlet weak var boatImage:       UIImageView!
     @IBOutlet weak var harbourSizeLabel: UIImageView!
     
     var boatType : String!

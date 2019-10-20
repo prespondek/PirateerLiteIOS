@@ -80,7 +80,7 @@ extension BoatListController : UITableViewDataSource
             tabBarController!.selectedIndex = 0
         } else if indexPath.row < user.boatSlots {
         } else {
-            let alert = UIAlertController(title: "Expand Fleet", message: nil , preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Expand Fleet", message: nil, preferredStyle: UIAlertController.Style.alert)
             if user.silver >= user.boatSlotCost {
                 alert.message = "Buy extra boat slot for " + String(user.boatSlotCost) + " silver"
                 alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (UIAlertAction) in
@@ -112,6 +112,7 @@ extension BoatListController : UITableViewDataSource
         }
         return true
     }
+    
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let boat = User.sharedInstance.boats[indexPath.row]

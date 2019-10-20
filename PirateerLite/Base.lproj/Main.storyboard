@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5V-jp-D5T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v5V-jp-D5T">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2373,26 +2373,26 @@
         </scene>
     </scenes>
     <resources>
-        <image name="abacus_small" width="46.319999694824219" height="46.080001831054688"/>
-        <image name="boat_icon" width="37.5" height="37.5"/>
-        <image name="cancel_plot_icon" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="chest_small" width="46.080001831054688" height="46.319999694824219"/>
-        <image name="fishermen" width="61.439998626708984" height="61.439998626708984"/>
-        <image name="frigate_portrait" width="61.439998626708984" height="61.439998626708984"/>
-        <image name="gold_piece" width="15.359999656677246" height="15.359999656677246"/>
-        <image name="hold_icon" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="map_icon" width="37.5" height="37.5"/>
-        <image name="menu_icon" width="37.5" height="37.5"/>
-        <image name="part_cannons" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="part_hull" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="part_rigging" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="part_sails" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="plot_icon" width="26.879999160766602" height="26.879999160766602"/>
-        <image name="rank_small_1" width="15.359999656677246" height="9.6000003814697266"/>
-        <image name="rank_small_5" width="15.359999656677246" height="19.200000762939453"/>
-        <image name="scrapyard_small" width="61.439998626708984" height="46.080001831054688"/>
-        <image name="shipyard_small" width="61.439998626708984" height="46.080001831054688"/>
-        <image name="silver_piece" width="15.359999656677246" height="15.359999656677246"/>
+        <image name="abacus_small" width="193" height="192"/>
+        <image name="boat_icon" width="25" height="25"/>
+        <image name="cancel_plot_icon" width="112" height="112"/>
+        <image name="chest_small" width="192" height="193"/>
+        <image name="fishermen" width="256" height="256"/>
+        <image name="frigate_portrait" width="256" height="256"/>
+        <image name="gold_piece" width="64" height="64"/>
+        <image name="hold_icon" width="112" height="112"/>
+        <image name="map_icon" width="25" height="25"/>
+        <image name="menu_icon" width="25" height="25"/>
+        <image name="part_cannons" width="112" height="112"/>
+        <image name="part_hull" width="112" height="112"/>
+        <image name="part_rigging" width="112" height="112"/>
+        <image name="part_sails" width="112" height="112"/>
+        <image name="plot_icon" width="112" height="112"/>
+        <image name="rank_small_1" width="64" height="40"/>
+        <image name="rank_small_5" width="64" height="80"/>
+        <image name="scrapyard_small" width="256" height="192"/>
+        <image name="shipyard_small" width="256" height="192"/>
+        <image name="silver_piece" width="64" height="64"/>
         <image name="sloop_01" width="64" height="64"/>
         <image name="tick" width="64" height="64"/>
         <image name="town_c2_unselected" width="128" height="128"/>

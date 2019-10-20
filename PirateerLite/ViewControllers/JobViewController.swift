@@ -17,21 +17,21 @@ class JobViewController : UIViewController, UICollectionViewDelegate,
         
     }
     
-    @IBOutlet weak var goldLabel: UILabel!
+    @IBOutlet weak var goldLabel:   UILabel!
     @IBOutlet weak var silverLabel: UILabel!
-    @IBOutlet weak var jobView: UICollectionView!
-    @IBOutlet weak var cargoPanel: UIView!
-    @IBOutlet weak var cargoView: CargoView!
+    @IBOutlet weak var jobView:     UICollectionView!
+    @IBOutlet weak var cargoPanel:  UIView!
+    @IBOutlet weak var cargoView:   CargoView!
     
-    var boatController : BoatController!
-    var townModel : TownModel!
+    var boatController :            BoatController!
+    var townModel :                 TownModel!
 
-    private var _jobs : Array<JobModel>!
-    private var _cargo : Array<JobView>!
-    private var _size : CGFloat!
-    private var _storage : Array<JobModel?>!
-    private var _refreshControl = UIRefreshControl()
-    private var _jobTimer: Timer?
+    private var _jobs :             Array<JobModel>!
+    private var _cargo :            Array<JobView>!
+    private var _size :             CGFloat!
+    private var _storage :          Array<JobModel?>!
+    private var _refreshControl =   UIRefreshControl()
+    private var _jobTimer:          Timer?
     
     var jobs : Array<JobModel> {
         return _jobs
@@ -273,6 +273,7 @@ class JobViewController : UIViewController, UICollectionViewDelegate,
             }
         }
     }
+    
     func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
         if let cell = collectionView.cellForItem(at: indexPath)?.subviews[0].subviews[0].subviews[0] as? JobView {
             if townModel != nil {

@@ -190,7 +190,8 @@ class BoatModel : Codable {
         self._stats.totalGold += Int(gold)
         self._stats.totalSilver += Int(silver)
         User.sharedInstance.xp += Int(silver * multipler)
-        NotificationCenter.default.post(name: NSNotification.Name.jobDelivered, object: self, userInfo: ["Town" : town, "Silver": Int(silver), "Gold": Int(gold), "Boat": self, "Quiet": quiet])
+        NotificationCenter.default.post(name: NSNotification.Name.jobDelivered, object: self,
+            userInfo: ["Town" : town, "Silver": Int(silver), "Gold": Int(gold), "Boat": self, "Quiet": quiet])
         
         if ( town === _course.last ) {
             self._stats.totalDistance = courseDistance
