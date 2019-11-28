@@ -200,7 +200,6 @@
 		C686493121FC004E000480AE = {
 			isa = PBXGroup;
 			children = (
-				C6F87C482390863000F9C0A6 /* PirateerAssets */,
 				C686493C21FC004E000480AE /* PirateerLite */,
 				C686495121FC0051000480AE /* PirateerLiteTests */,
 				C686495C21FC0051000480AE /* PirateerLiteUITests */,
@@ -221,6 +220,7 @@
 		C686493C21FC004E000480AE /* PirateerLite */ = {
 			isa = PBXGroup;
 			children = (
+				C6F87C482390863000F9C0A6 /* PirateerAssets */,
 				C64E5DA42218DC10009FB061 /* ViewControllers */,
 				C6E11F8C220939AA00093718 /* Singletons */,
 				C68D8D6C2202585100F839CD /* Library */,
@@ -337,8 +337,7 @@
 				C6F87C4C2390863000F9C0A6 /* boat_model.json */,
 				C6F87C4D2390863000F9C0A6 /* map_view.json */,
 			);
-			name = PirateerAssets;
-			path = PirateerLite/PirateerAssets;
+			path = PirateerAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
