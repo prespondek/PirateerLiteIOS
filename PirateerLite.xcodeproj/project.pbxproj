@@ -45,7 +45,6 @@
 		C686495E21FC0051000480AE /* PirateerLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686495D21FC0051000480AE /* PirateerLiteUITests.swift */; };
 		C686497B21FDE9E5000480AE /* MapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C686497A21FDE9E5000480AE /* MapScene.sks */; };
 		C68649BD21FDF126000480AE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68649BC21FDF126000480AE /* MapView.swift */; };
-		C68D8D552201A11000F839CD /* PirateerAssets in Resources */ = {isa = PBXBuildFile; fileRef = C68D8D542201A11000F839CD /* PirateerAssets */; };
 		C68D8D6F22025D4300F839CD /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D6E22025D4300F839CD /* Graph.swift */; };
 		C68D8D752202718200F839CD /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D742202718200F839CD /* MapModel.swift */; };
 		C68D8D77220271C000F839CD /* TownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D8D76220271C000F839CD /* TownModel.swift */; };
@@ -63,6 +62,11 @@
 		C6E11F8E220947E200093718 /* BoatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F8D220947E200093718 /* BoatController.swift */; };
 		C6E11F902209574700093718 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F8F2209574700093718 /* Map.swift */; };
 		C6E11F93220BBDBA00093718 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11F92220BBDBA00093718 /* MenuViewController.swift */; };
+		C6F87C4E2390863100F9C0A6 /* boat_names.json in Resources */ = {isa = PBXBuildFile; fileRef = C6F87C492390863000F9C0A6 /* boat_names.json */; };
+		C6F87C4F2390863100F9C0A6 /* user_model.json in Resources */ = {isa = PBXBuildFile; fileRef = C6F87C4A2390863000F9C0A6 /* user_model.json */; };
+		C6F87C502390863100F9C0A6 /* map_model.json in Resources */ = {isa = PBXBuildFile; fileRef = C6F87C4B2390863000F9C0A6 /* map_model.json */; };
+		C6F87C512390863100F9C0A6 /* boat_model.json in Resources */ = {isa = PBXBuildFile; fileRef = C6F87C4C2390863000F9C0A6 /* boat_model.json */; };
+		C6F87C522390863100F9C0A6 /* map_view.json in Resources */ = {isa = PBXBuildFile; fileRef = C6F87C4D2390863000F9C0A6 /* map_view.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +131,6 @@
 		C686495F21FC0051000480AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C686497A21FDE9E5000480AE /* MapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapScene.sks; sourceTree = "<group>"; };
 		C68649BC21FDF126000480AE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		C68D8D542201A11000F839CD /* PirateerAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PirateerAssets; path = ../PirateerAssets; sourceTree = "<group>"; };
 		C68D8D6E22025D4300F839CD /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		C68D8D742202718200F839CD /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		C68D8D76220271C000F839CD /* TownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownModel.swift; sourceTree = "<group>"; };
@@ -145,6 +148,11 @@
 		C6E11F8D220947E200093718 /* BoatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatController.swift; sourceTree = "<group>"; };
 		C6E11F8F2209574700093718 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		C6E11F92220BBDBA00093718 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C6F87C492390863000F9C0A6 /* boat_names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boat_names.json; sourceTree = "<group>"; };
+		C6F87C4A2390863000F9C0A6 /* user_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_model.json; sourceTree = "<group>"; };
+		C6F87C4B2390863000F9C0A6 /* map_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map_model.json; sourceTree = "<group>"; };
+		C6F87C4C2390863000F9C0A6 /* boat_model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boat_model.json; sourceTree = "<group>"; };
+		C6F87C4D2390863000F9C0A6 /* map_view.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map_view.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +200,7 @@
 		C686493121FC004E000480AE = {
 			isa = PBXGroup;
 			children = (
-				C68D8D542201A11000F839CD /* PirateerAssets */,
+				C6F87C482390863000F9C0A6 /* PirateerAssets */,
 				C686493C21FC004E000480AE /* PirateerLite */,
 				C686495121FC0051000480AE /* PirateerLiteTests */,
 				C686495C21FC0051000480AE /* PirateerLiteUITests */,
@@ -320,6 +328,19 @@
 			path = Singletons;
 			sourceTree = "<group>";
 		};
+		C6F87C482390863000F9C0A6 /* PirateerAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C6F87C492390863000F9C0A6 /* boat_names.json */,
+				C6F87C4A2390863000F9C0A6 /* user_model.json */,
+				C6F87C4B2390863000F9C0A6 /* map_model.json */,
+				C6F87C4C2390863000F9C0A6 /* boat_model.json */,
+				C6F87C4D2390863000F9C0A6 /* map_view.json */,
+			);
+			name = PirateerAssets;
+			path = PirateerLite/PirateerAssets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,15 +445,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F87C502390863100F9C0A6 /* map_model.json in Resources */,
 				C64E5D9B22129790009FB061 /* Wallet.xib in Resources */,
 				C686494821FC0051000480AE /* LaunchScreen.storyboard in Resources */,
 				C622CE212223957F00993D4D /* MenuCell.xib in Resources */,
 				C610022722279121001F5B4C /* TableHeader.xib in Resources */,
 				C686494521FC0051000480AE /* Assets.xcassets in Resources */,
 				C686494321FC004E000480AE /* Main.storyboard in Resources */,
-				C68D8D552201A11000F839CD /* PirateerAssets in Resources */,
 				C64E5D9F22169011009FB061 /* BoatCell.xib in Resources */,
 				C686497B21FDE9E5000480AE /* MapScene.sks in Resources */,
+				C6F87C4F2390863100F9C0A6 /* user_model.json in Resources */,
+				C6F87C512390863100F9C0A6 /* boat_model.json in Resources */,
+				C6F87C522390863100F9C0A6 /* map_view.json in Resources */,
+				C6F87C4E2390863100F9C0A6 /* boat_names.json in Resources */,
 				C64E5DAC2219B861009FB061 /* JobCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

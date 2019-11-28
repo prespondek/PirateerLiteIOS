@@ -1,0 +1,23 @@
+{
+    "RankKeys": ["recruit","apprentice","seaman","leading seaman","petty officer","warrant officer","midshipman","ensign","lieutenant","commander","captain","commador","rear admiral","vice admiral","admiral"],
+    "RankValues": {
+    "recruit":          ["rank_small_1", "Recruit"],
+    "apprentice":       ["rank_small_2", "Apprentice"],
+    "seaman":           ["rank_small_3", "Seaman"],
+    "leading seaman":   ["rank_small_4", "Leading Seaman"],
+    "petty officer":    ["rank_small_5", "Petty Officer"],
+    "warrant officer":  ["rank_small_6", "Warrant Officer"],
+    "midshipman":       ["rank_small_7", "Midshipman"],
+    "ensign":           ["rank_small_8", "Ensign"],
+    "lieutenant":       ["rank_small_9", "Lientenant"],
+    "commander":        ["rank_small_10", "Commander"],
+    "captain":          ["rank_small_11", "Captain"],
+    "commador":         ["rank_small_12", "Commador"],
+    "rear admiral":     ["rank_small_13", "Rear Admiral"],
+    "vice admiral":     ["rank_small_14", "Vice Admiral"],
+    "admiral":          ["rank_small_15", "Admiral"]
+    },
+    "ExchangeRate" : 300,
+    "MarketTime" : 240,
+    "JobTime" : 240
+}
