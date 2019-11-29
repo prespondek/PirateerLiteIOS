@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import PirateerLite
+@testable import ClearForActionLite
 
 class PirateerLiteTests: XCTestCase {
 
