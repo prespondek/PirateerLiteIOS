@@ -1,4 +1,7 @@
 # PirateerLiteIOS
+
+[![TravisCI](https://travis-ci.org/prespondek/PirateerLiteIOS.svg?branch=master)](https://travis-ci.org/prespondek/PirateerLiteIOS)
+
 Clear For Action Lite. Non trivial sample IOS game written in Swift using UIKit and SpriteKit.
 
 <img src=https://i.imgur.com/zKiYhXe.png width=200 align=left>
