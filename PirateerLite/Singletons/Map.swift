@@ -124,7 +124,7 @@ class Map : Codable {
     func setup () {
         let config : Dictionary<String, AnyObject>
         do {
-            config = try JSONSerialization.load(path: "PirateerAssets/map_model.json") as! Dictionary<String, AnyObject>
+            config = try JSONSerialization.load(path: "map_model.json") as! Dictionary<String, AnyObject>
         } catch {
             fatalError()
         }

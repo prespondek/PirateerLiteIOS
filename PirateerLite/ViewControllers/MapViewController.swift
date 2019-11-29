@@ -193,7 +193,7 @@ class MapViewController: UIViewController, UserObserver {
         toolTip.layer.borderWidth = 0.5
         User.sharedInstance.addObserver(self)
         do {
-            self.scene!.setup( data: try JSONSerialization.load(path: "PirateerAssets/map_view.json") as! Dictionary<String, AnyObject> )
+            self.scene!.setup( data: try JSONSerialization.load(path: "map_view.json") as! Dictionary<String, AnyObject> )
         } catch { fatalError() }
         
         let frameSize = CGSize(width: (self.scene!.size.width), height: (self.scene!.size.height))

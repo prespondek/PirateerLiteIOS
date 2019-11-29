@@ -23,7 +23,7 @@ class BoatModel : Codable {
     
     static private let boatData : Dictionary<String, Any> = {
         do {
-            return try JSONSerialization.load(path: "PirateerAssets/boat_model.json") as! Dictionary<String, AnyObject>
+            return try JSONSerialization.load(path: "boat_model.json") as! Dictionary<String, AnyObject>
         } catch {
             fatalError()
         }
@@ -39,7 +39,7 @@ class BoatModel : Codable {
     }
     static private let boatNames : Array<Array<Any>> = {
         do {
-            return try JSONSerialization.load(path: "PirateerAssets/boat_names.json") as! Array<Array<Any>>
+            return try JSONSerialization.load(path: "boat_names.json") as! Array<Array<Any>>
         } catch {
             fatalError()
         }

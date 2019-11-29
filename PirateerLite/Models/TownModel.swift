@@ -180,8 +180,9 @@ class TownModel : WorldNode, Hashable, Codable, UserObserver {
         var unlockedTowns = Map.sharedInstance.towns.filter({$0.level > 0})
         unlockedTowns.removeAll(where: {$0 === self})
         var numJobs = TownModel.townUpgrade[level][0]
-        unlockedTowns.forEach {for _ in 0..<$0.level - 1 {
-            unlockedTowns.append($0)
+        unlockedTowns.forEach {
+            for _ in 0..<$0.level - 1 {
+                unlockedTowns.append($0)
             }
         }
         if numJobs > unlockedTowns.count {

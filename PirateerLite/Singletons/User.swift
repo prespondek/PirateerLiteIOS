@@ -128,7 +128,7 @@ class User : Codable {
     
     static private let userData : Dictionary<String, Any> = {
         do {
-            return try JSONSerialization.load(path: "PirateerAssets/user_model.json") as! Dictionary<String, AnyObject>
+            return try JSONSerialization.load(path: "user_model.json") as! Dictionary<String, AnyObject>
         } catch {
             fatalError()
         }
